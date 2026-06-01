@@ -11,7 +11,7 @@
 1. [Descripción del Proyecto](#descripción-del-proyecto)
 2. [Arquitectura y Tecnologías](#arquitectura-y-tecnologías)
 3. [Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
-4. [Instalación y Configuración](#instalación-y-configuración)
+4. [Windows Form (Visualización del CRUD)](#windows-form-(visualización-del-CRUD))
 5. [Conclusiones](#conclusiones)
 
 ## Descripción del Proyecto
@@ -31,7 +31,7 @@ Para lograr una estructura eficiente, rápida y profesional, se seleccionaron la
 
 * **Motor de Base de Datos:** SQL Server
 * **Lenguaje de Programación:** C# (.NET)
-* **Acceso a Datos / ORM:** Dapper (para mapeo de datos de forma ágil y ligera)
+* **Acceso a Datos / ORM:** Entity Framework Core (EF Core)
 
 
 ## Estructura de la Base de Datos
@@ -55,7 +55,14 @@ values ('Leche Entera 1L', 75.00, 120);
 insert into productos (nombre, precio, stock) 
 values ('Arroz Premium 5lb', 240.00, 50);
 ```
-### Windows Form (Visualización del CRUD)
+## Windows Form (Visualización del CRUD)
 
-## Instalación y Configuración
+![Foto Crud](CRUD.png)
+
+## Conslusiones:
+- Dominio de Entity Framework Core: La implementación de DbContext y DbSet facilitó el mapeo directo de la tabla de SQL Server a objetos de C#, eliminando la necesidad de escribir consultas manuales complejas en el código de la interfaz.
+
+- Manejo de Instancias Locales: Se comprendió la configuración práctica de cadenas de conexión seguras utilizando autenticación integrada (Trusted_Connection=True) conectando directamente a una instancia local de SQLEXPRESS.
+
+- Optimización del Diseño: El desarrollo enfocado en una única entidad clara permitió pulir la lógica del CRUD antes de escalar el software a un modelo de negocio con más catálogos.
 
