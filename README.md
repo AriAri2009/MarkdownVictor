@@ -59,7 +59,7 @@ values ('Arroz Premium 5lb', 240.00, 50);
 
 ![Foto Crud](CRUD.png)
 
-## Conslusiones:
+## Conclusiones:
 - Dominio de Entity Framework Core: La implementación de DbContext y DbSet facilitó el mapeo directo de la tabla de SQL Server a objetos de C#, eliminando la necesidad de escribir consultas manuales complejas en el código de la interfaz.
 
 - Manejo de Instancias Locales: Se comprendió la configuración práctica de cadenas de conexión seguras utilizando autenticación integrada (Trusted_Connection=True) conectando directamente a una instancia local de SQLEXPRESS.
