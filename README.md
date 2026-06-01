@@ -11,7 +11,7 @@
 1. [Descripción del Proyecto](#descripción-del-proyecto)
 2. [Arquitectura y Tecnologías](#arquitectura-y-tecnologías)
 3. [Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
-4. [Windows Form (Visualización del CRUD)](#windows-form-(visualización-del-CRUD))
+4. [Windows Form (Visualización del CRUD)](#windows-form-visualización-del-crud)
 5. [Conclusiones](#conclusiones)
 
 ## Descripción del Proyecto
